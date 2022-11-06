@@ -616,6 +616,42 @@ a.button2:hover {
 
 	}
 
+	#one {
+
+		z-index: 500;
+
+		height: 80vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+
+
+	}
+
+
+	#one::after {
+
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-size: contain;
+
+
+		background-image: url(../img/canada.jpg);
+		filter: blur(3px) brightness(39%);
+		-webkit-filter: blur(3px) brightness(39%);
+		-moz-filter: blur(3px) brightness(39%);
+
+
+	}
+
+
 	nav {
 		width: 320px;
 		right: -360px;
@@ -637,10 +673,10 @@ a.button2:hover {
 
 	.nav-header {
 
-		/* width: 100vw; */
+		width: 100vw;
 		z-index: 1000;
 		/* padding-right: 60px; */
-
+		/* padding: 0px 50px */
 	}
 
 	.menu-toggle {
