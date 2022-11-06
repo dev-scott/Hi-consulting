@@ -365,6 +365,7 @@ nav ul li {
 .portfolio {
 	background-color: #FAFAFA;
 	margin-top: 80px;
+
 }
 
 .portfolio h6 {
@@ -814,7 +815,7 @@ a.button2:hover {
 
 	.portfolio {
 		background-color: #FAFAFA;
-		margin-top: 280px;
+		margin-top: 380px;
 	}
 
 	.portfolio-caption {
@@ -845,65 +846,74 @@ a.button2:hover {
 		display: none;
 	}
 
-}
-
-.shape-l {
-	right: 190px;
-	width: 110px;
-	top: 0px;
-	height: 300px;
-	display: none;
-}
-
-.shape-l-hor {
-	right: 100px;
-	width: 160px;
-	top: 230px;
-	height: 80px;
-	display: none;
-
-}
 
 
-.about-text {
-	margin-top: 350px;
+
+	.contact-info h1:first-child {
+		text-align: center;
+		font-size: 17px !important;
+		width: 100%;
+		margin: 0;
+		/* margin-bottom: 20px; */
+		/* margin: 0px 50px 30px 0px; */
+	}
+
+	.contact-info h1:nth-child(2) {
+		/* margin: 0px 50px 25px 20px; */
+		font-size: 15px !important;
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.contact-info p {
+		/* margin: 30px 20px 25px 10px; */
+		text-align: center;
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+
+
+
+	.shape-l {
+		right: 190px;
+		width: 110px;
+		top: 0px;
+		height: 300px;
+		display: none;
+	}
+
+	.shape-l-hor {
+		right: 100px;
+		width: 160px;
+		top: 230px;
+		height: 80px;
+		display: none;
+
+	}
+
+
+	.about-text {
+		margin-top: 350px;
+	}
+
+	.about-text h4 {
+		line-height: 1.7rem;
+		padding-bottom: 25px;
+	}
+
+	.contact {
+		margin-top: 20px;
+	}
+
+
+
+	/*  */
 }
 
-.about-text h4 {
-	line-height: 1.7rem;
-	padding-bottom: 25px;
-}
-
-.contact {
-	margin-top: 20px;
-}
-
-.contact-info h1:first-child {
-	text-align: center;
-	font-size: 17px !important;
-	width: 100%;
-	margin: 0;
-	/* margin-bottom: 20px; */
-	/* margin: 0px 50px 30px 0px; */
-}
-
-.contact-info h1:nth-child(2) {
-	/* margin: 0px 50px 25px 20px; */
-	font-size: 15px !important;
-	width: 100%;
-	margin: 0;
-	margin-top: 20px;
-	text-align: center;
-}
-
-.contact-info p {
-	/* margin: 30px 20px 25px 10px; */
-	text-align: center;
-	width: 100%;
-	margin: 0;
-	margin-top: 20px;
-}
-}
 
 @media only screen and (min-width: 1024px) {
 	.hero {
@@ -991,6 +1001,7 @@ a.button2:hover {
 	.portfolio {
 		margin-top: 100px;
 		padding-bottom: 30px;
+		height: min-content;
 	}
 
 	.portfolio-caption {
