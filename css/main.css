@@ -615,6 +615,19 @@ a.button2:hover {
 		right: -320px;
 	}
 
+	.container_dd {
+
+		/* width: 100%; */
+		/* background-color: red; */
+
+	}
+
+	.nav-header {
+
+		/* width: 70%; */
+
+	}
+
 	.menu-toggle {
 		margin-right: 10px;
 	}
