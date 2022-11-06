@@ -546,9 +546,10 @@ a.button2:hover {
 
 /* contact */
 .contact {
-	background-color: #FAFAFA;
+	/* background-color: #a91010; */
 	margin-top: 100px;
 	padding-bottom: 50px;
+	width: 100vw;
 }
 
 .contact h6 {
