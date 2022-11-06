@@ -610,6 +610,12 @@ a.button2:hover {
 
 /* Responsive Styling */
 @media only screen and (max-width: 570px) and (min-width: 320px) {
+	body {
+
+		overflow-x: hidden;
+
+	}
+
 	nav {
 		width: 320px;
 		right: -320px;
@@ -617,14 +623,15 @@ a.button2:hover {
 
 	.container_dd {
 
-		/* width: 100%; */
+		/* width: 100vw; */
 		/* background-color: red; */
 
 	}
 
 	.nav-header {
 
-		/* width: 70%; */
+		width: 100vw;
+		/* padding-right: 60px; */
 
 	}
 
