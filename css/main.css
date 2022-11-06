@@ -623,7 +623,16 @@ a.button2:hover {
 
 
 	}
-	.contact{width: 100%;}
+
+	.contact {
+		width: 100vw;
+		margin: 0 auto;
+
+	}
+
+	.ddd {
+		/* font-size: 12px; */
+	}
 
 	#one {
 
