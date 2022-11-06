@@ -618,7 +618,8 @@ a.button2:hover {
 
 	nav {
 		width: 320px;
-		right: -320px;
+		right: -360px;
+
 	}
 
 	.container_dd {
@@ -628,9 +629,16 @@ a.button2:hover {
 
 	}
 
+	.menu-toggle {
+
+		z-index: 1000;
+
+	}
+
 	.nav-header {
 
-		width: 100vw;
+		/* width: 100vw; */
+		z-index: 1000;
 		/* padding-right: 60px; */
 
 	}
