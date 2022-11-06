@@ -617,6 +617,14 @@ a.button2:hover {
 
 	}
 
+	.contact-info .ddd {
+		font-size: 13px !important;
+
+
+
+	}
+	.contact{width: 100%;}
+
 	#one {
 
 		z-index: 500;
